@@ -1,13 +1,17 @@
-import AuthInputs from './components/AuthInputs.jsx';
-import Header from './components/Header.jsx';
-
-export default function App() {
+function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <AuthInputs />
-      </main>
-    </>
+    <div id="app">
+      <h1>CSS is great!</h1>
+      <menu>
+        <li>
+          <button>Yes</button>
+        </li>
+        <li>
+          <button>No</button>
+        </li>
+      </menu>
+    </div>
   );
 }
+
+export default App;
